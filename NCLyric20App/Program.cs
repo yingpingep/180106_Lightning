@@ -7,12 +7,14 @@ namespace NCLyric20App
     class Program
     {
         static void Main(string[] args)
-        {
+        {            
+            Console.Write("Give me a number: ");
+            string index = Console.ReadLine();
             Task.Run(async () =>
             {
-                Console.WriteLine(await NSLyricTest.Lyric.GetLyricAsync("5"));
+                Console.WriteLine(await NSLyricTest.Lyric.GetLyricAsync(index));
             });
-
+            
             Console.ReadLine();
         }
     }
