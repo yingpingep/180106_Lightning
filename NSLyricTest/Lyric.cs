@@ -11,7 +11,7 @@ namespace NSLyricTest
         {
             HttpClient hc = new HttpClient();
 
-            string res = await hc.GetStringAsync(endpoint + number);
+            string res = await hc.GetStringAsync(endpoint + index);
             res = res.Replace("\\n", "\n");
             res = res.Substring(1, res.Length - 2);
             return res;
