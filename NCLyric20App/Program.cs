@@ -8,11 +8,11 @@ namespace NCLyric20App
     {
         static void Main(string[] args)
         {
-            //Task.Run(async () =>
-            //{
-            //    Console.WriteLine(await NSLyricTest.Lyric.GetLyricAsync("5"));
-            //});
-            
+            Task.Run(async () =>
+            {
+                Console.WriteLine(await NSLyricTest.Lyric.GetLyricAsync("5"));
+            });
+
             Console.ReadLine();
         }
     }

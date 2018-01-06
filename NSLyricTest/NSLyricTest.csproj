@@ -4,4 +4,13 @@
     <TargetFrameworks>netstandard2.0;netcoreapp2.0</TargetFrameworks>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="App.xaml.cs" />
+    <Compile Remove="MainPage.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
+  </ItemGroup>
+
 </Project>

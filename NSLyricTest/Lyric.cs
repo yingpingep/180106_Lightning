@@ -7,10 +7,12 @@ namespace NSLyricTest
     public class Lyric
     {
         private static string endpoint = "https://oplbackend.azurewebsites.net/api/lyric/";
-        public async static Task<string> GetLyricAsync(string number)
+        public async static Task<string> GetLyricAsync(string index)
         {
             HttpClient hc = new HttpClient();
-            return await hc.GetStringAsync(endpoint + number);
+
+            string s = await hc.GetStringAsync(endpoint + index);
+            return s.Replace("\\n", "\n");
         }
     }
 }
