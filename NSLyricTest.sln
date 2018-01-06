@@ -1,17 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-<<<<<<< HEAD
-VisualStudioVersion = 15.0.26730.12
-=======
 VisualStudioVersion = 15.0.27130.2010
->>>>>>> development
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSLyricTest", "NSLyricTest\NSLyricTest.csproj", "{9A7FD8C2-5B7A-4F95-842A-FCD6CB5BE499}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCLyric20App", "NCLyric20App\NCLyric20App.csproj", "{DB6F678B-916E-4349-A899-7E3A1B7610F0}"
-<<<<<<< HEAD
-=======
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFLaricApp.Android", "XFLaricApp\XFLaricApp.Android\XFLaricApp.Android.csproj", "{E5E20654-53FC-4BB0-AED2-0B1F55580449}"
 EndProject
@@ -19,8 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFLaricApp.iOS", "XFLaricAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFLaricApp.UWP", "XFLaricApp\XFLaricApp.UWP\XFLaricApp.UWP.csproj", "{11AE102F-54C6-4468-9EB7-E775B88C8937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFLaricApp", "XFLaricApp\XFLaricApp\XFLaricApp.csproj", "{7053530A-BC14-4503-8CB8-BFCA3040B582}"
->>>>>>> development
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XFLaricApp", "XFLaricApp\XFLaricApp\XFLaricApp.csproj", "{7053530A-BC14-4503-8CB8-BFCA3040B582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,8 +139,6 @@ Global
 		{DB6F678B-916E-4349-A899-7E3A1B7610F0}.Release|x64.Build.0 = Release|Any CPU
 		{DB6F678B-916E-4349-A899-7E3A1B7610F0}.Release|x86.ActiveCfg = Release|Any CPU
 		{DB6F678B-916E-4349-A899-7E3A1B7610F0}.Release|x86.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-=======
 		{E5E20654-53FC-4BB0-AED2-0B1F55580449}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{E5E20654-53FC-4BB0-AED2-0B1F55580449}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{E5E20654-53FC-4BB0-AED2-0B1F55580449}.Ad-Hoc|Any CPU.Deploy.0 = Release|Any CPU
@@ -360,7 +351,6 @@ Global
 		{7053530A-BC14-4503-8CB8-BFCA3040B582}.Release|x64.Build.0 = Release|Any CPU
 		{7053530A-BC14-4503-8CB8-BFCA3040B582}.Release|x86.ActiveCfg = Release|Any CPU
 		{7053530A-BC14-4503-8CB8-BFCA3040B582}.Release|x86.Build.0 = Release|Any CPU
->>>>>>> development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
