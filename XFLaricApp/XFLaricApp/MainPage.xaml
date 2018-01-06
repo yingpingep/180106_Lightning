@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XFLaricApp"
+             x:Class="XFLaricApp.MainPage">
+
+
+    <StackLayout>
+        <Picker x:Name="picker" Title="Select a song">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>The Greatest Show</x:String>
+                    <x:String>A Million Dreams</x:String>
+                    <x:String>A Million Dreams(Reprise)</x:String>
+                    <x:String>Come Alive</x:String>
+                    <x:String>The Other Side</x:String>
+                    <x:String>Never Enough</x:String>
+                    <x:String>This Is Me</x:String>
+                    <x:String>Rewrite The Stars</x:String>
+                    <x:String>Tightrope</x:String>
+                    <x:String>Never Enough(Reprise)</x:String>
+                    <x:String>From Now On</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <ScrollView>
+            <Label x:Name="lyric"
+               Text="Welcome to Xamarin.Forms!" 
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+        </ScrollView>
+    </StackLayout>
+    
+</ContentPage>

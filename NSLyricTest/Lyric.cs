@@ -10,7 +10,10 @@ namespace NSLyricTest
         public async static Task<string> GetLyricAsync(string number)
         {
             HttpClient hc = new HttpClient();
-            return await hc.GetStringAsync(endpoint + number);
+            string res = await hc.GetStringAsync(endpoint + number);
+            res = res.Replace("\\n", "\n");
+            res = res.Substring(1, res.Length - 2);
+            return res;
         }
     }
 }
