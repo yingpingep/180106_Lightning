@@ -16,7 +16,7 @@
 好的，透過上面的參考文件顯示，若我們要在 Xamarin.Forms 以及 .NET Core Console APP 上共用我們所寫好的程式碼，[Xamarin.Forms 的版本要在 2.4 以上](https://developer.xamarin.com/guides/xamarin-forms/under-the-hood/net-standard/)、Xamarin.Android 8.0、UWP 10.0.16299 最後 .NET Core 則是 2.0。  
 
 **版本確認**什麼的大家可以透過 VS 來檢查，如下圖：  
-![](image\version.png)  
+![](image/version.png)  
   
 版本確認很重要喔！如果目標平台沒有支援的話就什麼事也不能做！在這邊跟大家分享我踩到的第一個雷：Xamarin.Forms 無法正常編譯。而且我還遇到兩次。  
 
@@ -24,9 +24,9 @@
   
 像是原先建立 Xamarin.Forms 專案的時候都會跳出讓你選擇建立 PCL or Shared Project 的選項都會被改成 Shared Project 與 .NET Standard 如下圖：  
 
-![old vs 15.3](image\oldxf.png)  
+![old vs 15.3](image/oldxf.png)  
 
-![new vs 15.5](image\newxf.png)  
+![new vs 15.5](image/newxf.png)  
 
 所以大家可以不用再跟著官方文件從 PCL or Shared Project 把 UI 拉到 .NET Standard 裡囉！  
 
